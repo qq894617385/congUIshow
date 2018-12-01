@@ -1,0 +1,13 @@
+<!-- pages/test/congUI/tab/tab.wxml -->
+<view class="contant">
+    <view class="text-contant">
+        <view class="text-item" data-id="{{index+1}}" bindtap="changeIn" wx:for="{{Arr}}" wx:key="{{item}}">
+            <view>{{item.text}}</view>
+        </view>
+    </view>
+    <view class="tab-line">
+        <view class="line-left" style="width:{{left * width}}%"></view>
+        <view class="line" style="flex:1"></view>
+        <view class="line-right" style="width:{{right * width}}%"></view>
+    </view>
+</view>

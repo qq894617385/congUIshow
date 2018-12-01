@@ -1,0 +1,10 @@
+<!-- pages/test/congUI/toast/toast.wxml -->
+<view class="contant" wx:if="{{show}}">
+    <view class="text-box" style="animation: top linear 1 {{duration}}ms;">
+        <view class="text-contant" bindtap="display">
+            <i class="iconfont icon-dui success" wx:if="{{icon == 'success'}}"></i>
+            <i class="iconfont icon-cuowuguanbi- wrong" wx:if="{{icon == 'wrong'}}"></i>
+            <view class="text">{{text}}</view>
+        </view>
+    </view>
+</view>

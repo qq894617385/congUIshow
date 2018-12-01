@@ -1,0 +1,10 @@
+<!-- pages/test/congUI/cards/cards.wxml -->
+<view class="contant">
+    <view class="box">
+        <view class="text" style="color:{{fontColor}}">{{title}}</view>
+        <view class="icon-contant" >
+            <view class="icon-text">{{des}}</view>
+            <i  wx:if="{{arrow}}" class="iconfont icon-jiantou" style="font-size:34rpx;"></i>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,19 @@
+.button-contant {
+    width: 100%;
+    height: 100%;
+    border-radius: 8rpx;
+    overflow: hidden;
+}
+
+.cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transition: background 0.1s;
+}
+
+view {
+    box-sizing: border-box;
+}
