@@ -10,4 +10,5 @@
             <i class="icon-wuquangou_dingzhiyouhoutaibianji iconfont" style="font-size:18rpx; color: white;"></i>
         </view>
     </view>
+    <view class="step-text"></view>
 </view>

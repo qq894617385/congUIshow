@@ -93,6 +93,7 @@
 .cropper_movable_area_container .move_item {
     z-index: 100;
     opacity: 1;
+    background-color: #fff;
 }
 
 .cropper_canvas_container .canvas {

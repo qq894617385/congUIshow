@@ -2,7 +2,8 @@
 Page({
     data: {
         index: 0,
-        Arr: [{
+        Arr: [
+            {
             name: "组件3"
         },
         {
@@ -103,7 +104,26 @@ Page({
             name: "标题五",
             value: "123",
         }
-        ]
+        ],
+        step:
+            [{
+                name: "步骤一",
+                done: true
+            },
+            {
+                name: "步骤二",
+                done: true
+            },
+            {
+                name: "步骤三",
+                done: true
+            },
+            {
+                name: "步骤四",
+                done: false
+            }]
+
+
     },
     onLoad: function () {
         var that = this
@@ -130,7 +150,7 @@ Page({
                     maxLength: 1000, //默认2000，允许最大长宽，避免分辨率过大导致崩溃
                 }
                 that.setData({
-                    img:img
+                    img: img
                 })
             }
         })
