@@ -25,7 +25,7 @@
 <!-- <radio class="radio" Array="{{checkArr}}" bind:output="checkSelect"></radio> -->
 
 <!-- 步骤条 -->
-<steps step="{{step}}"></steps>
+<!-- <steps step="{{step}}"></steps> -->
 
 <!-- 输入条 -->
 <!-- <view class="contant">
