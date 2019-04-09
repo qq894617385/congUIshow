@@ -1,2 +1,9 @@
-<!--pages/home/index.wxml-->
-<text>pages/home/index.wxml</text>
+<view class="home_contant">
+    <view class="item_contant" wx:for="{{homeArr}}" wx:key="{{index}}">
+        <view class="item_box">
+            <view class="item_inset_box">
+                <view class="cricle_box"></view>
+            </view>
+        </view>
+    </view>
+</view>

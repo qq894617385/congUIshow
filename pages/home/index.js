@@ -5,7 +5,96 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    homeArr: [
+      {
+        name: "1",
+        path: ""
+      },
+      {
+        name: "2",
+        path: ""
+      },
+      {
+        name: "3",
+        path: ""
+      },
+      {
+        name: "4",
+        path: ""
+      },
+      {
+        name: "5",
+        path: ""
+      },
+      {
+        name: "6",
+        path: ""
+      },
+      {
+        name: "7",
+        path: ""
+      },
+      {
+        name: "8",
+        path: ""
+      },
+      {
+        name: "9",
+        path: ""
+      },
+      {
+        name: "10",
+        path: ""
+      },
+      {
+        name: "11",
+        path: ""
+      },
+      {
+        name: "12",
+        path: ""
+      },
+      {
+        name: "13",
+        path: ""
+      },
+      {
+        name: "14",
+        path: ""
+      },
+      {
+        name: "15",
+        path: ""
+      },
+      {
+        name: "16",
+        path: ""
+      },
+      {
+        name: "17",
+        path: ""
+      },
+      {
+        name: "18",
+        path: ""
+      },
+      {
+        name: "19",
+        path: ""
+      },
+      {
+        name: "20",
+        path: ""
+      },
+      {
+        name: "21",
+        path: ""
+      },
+      {
+        name: "22",
+        path: ""
+      },
+    ]
   },
 
   /**
@@ -13,54 +102,6 @@ Page({
    */
   onLoad: function (options) {
 
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
   }
+
 })

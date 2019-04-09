@@ -1,19 +1,19 @@
 {
     "usingComponents": {
-        "bgc": "../congUI/background/background",
-        "btn": "../congUI/button/button",
-        "search": "../congUI/search/search",
-        "checkbox": "../congUI/checkbox/checkbox",
-        "radio": "../congUI/radio/radio",
-        "cards": "../congUI/cards/cards",
-        "steps": "../congUI/step/step",
-        "wirte": "../congUI/wirte/wirte",
-        "number": "../congUI/number/number",
-        "calculate": "../congUI/calculate/calculate",
-        "btnTap": "../congUI/buttonTap/buttonTap",
-        "cell": "../congUI/cell/cell",
-        "loading": "../congUI/loading/loading",
-        "maps":"../congUI/maps/maps",
-        "pic":"../congUI/pictrueCut/pictrueCut"
+        "bgc": "../congUI/background/index",
+        "btn": "../congUI/button/index",
+        "search": "../congUI/search/index",
+        "checkbox": "../congUI/checkbox/index",
+        "radio": "../congUI/radio/index",
+        "cards": "../congUI/cards/index",
+        "steps": "../congUI/step/index",
+        
+        "number": "../congUI/number/index",
+        "calculate": "../congUI/calculate/index",
+        "btnTap": "../congUI/buttonTap/index",
+        "cell": "../congUI/cell/index",
+        "loading": "../congUI/loading/index",
+        "maps":"../congUI/maps/index"
+       
     }
 }
