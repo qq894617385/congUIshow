@@ -2,7 +2,9 @@
     <view class="item_contant" wx:for="{{homeArr}}" wx:key="{{index}}">
         <view class="item_box">
             <view class="item_inset_box">
-                <view class="cricle_box"></view>
+                <view class="cricle_box">
+                    <i class="iconfont icon-hexagon six_angle"></i>
+                </view>
             </view>
         </view>
     </view>
