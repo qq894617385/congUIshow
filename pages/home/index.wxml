@@ -8,9 +8,10 @@
                 <view class="cricle_contant">
                     <i class="iconfont icon-hexagon six_angle"></i>
                 </view>
-                <view class="path-contant">
-                    {{item.name}}
+                <view class="path-contant" bindlongtap="longTap" data-index="{{index}}">
+                    <i class="'iconfont path_icon '{{item.icon}}"></i>
                 </view>
+                <view class="text_contant">{{item.name}}</view>
             </view>
         </view>
     </view>

@@ -1,8 +1,8 @@
 {
     "files.associations": {
+        "*.wxml": "wxml",
         "*.cjson": "jsonc",
         "*.wxss": "css",
-        "*.wxs": "javascript",
-        "*.wxml": "wxml"
+        "*.wxs": "javascript"
     }
 }

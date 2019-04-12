@@ -7,91 +7,63 @@ Page({
   data: {
     homeArr: [
       {
+        icon: "icon-anniu",
         name: "按钮",
         path: ""
       },
       {
-        name: "2",
+        icon: "icon-qiapian",
+        name: "卡片",
         path: ""
       },
       {
-        name: "3",
+        icon: "icon-query1",
+        name: "查找",
         path: ""
       },
       {
-        name: "4",
+        icon: "icon-jisuanqi",
+        name: "计算器",
         path: ""
       },
       {
-        name: "5",
+        icon: "icon-checkboxoutline",
+        name: "单选框",
         path: ""
       },
       {
-        name: "6",
+        icon: "icon-checkbox-multiple-marked-outline",
+        name: "多选框",
         path: ""
       },
       {
-        name: "7",
+        icon: "icon-Toast",
+        name: "面包屑",
         path: ""
       },
       {
-        name: "8",
+        icon: "icon-icon-",
+        name: "输入框",
         path: ""
       },
       {
-        name: "9",
+        icon: "icon-loading-v",
+        name: "加载",
         path: ""
       },
       {
-        name: "10",
+        icon: "icon-ditu",
+        name: "地图",
         path: ""
       },
       {
-        name: "11",
+        icon: "icon-shuzishunxu",
+        name: "步骤条",
         path: ""
       },
       {
-        name: "12",
-        path: ""
-      },
-      {
-        name: "13",
-        path: ""
-      },
-      {
-        name: "14",
-        path: ""
-      },
-      {
-        name: "15",
-        path: ""
-      },
-      {
-        name: "16",
-        path: ""
-      },
-      {
-        name: "17",
-        path: ""
-      },
-      {
-        name: "18",
-        path: ""
-      },
-      {
-        name: "19",
-        path: ""
-      },
-      {
-        name: "20",
-        path: ""
-      },
-      {
-        name: "21",
-        path: ""
-      },
-      {
-        name: "22",
+        icon: "icon-shuzi",
+        name: "数升值",
         path: ""
       },
     ]
@@ -102,6 +74,11 @@ Page({
    */
   onLoad: function (options) {
 
+  },
+
+  longTap: function (e) {
+    console.log(e.currentTarget.dataset.index);
+    // 展示icon
   }
 
 })

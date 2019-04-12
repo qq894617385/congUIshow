@@ -17,27 +17,20 @@
 <!-- <checkbox class="checkbox" bind:output="checkSelect" Array="{{checkArr}}"></checkbox> -->
 <!-- 加载 (有待修改) -->
 <!-- <loading show="true" text="你好"></loading> -->
-
 <!-- 地图  (待优化) -->
 <!-- <maps></maps> -->
-
 <!-- 单选框 -->
 <!-- <radio class="radio" Array="{{checkArr}}" bind:output="checkSelect"></radio> -->
-
 <!-- 步骤条 -->
 <!-- <steps step="{{step}}"></steps> -->
-
 <!-- 输入条 -->
 <!-- <view class="contant">
     <wirte title="Label" minlength="10" maxlength="10" tips="请输入仓库等于10的字符" bind:input="change"></wirte>
 </view> -->
-
 <!-- 数值增值 -->
 <!-- <number target="12345798"></number> -->
-
 <!-- 搜索框 -->
 <!-- <search bind:input="change"></search> -->
-
 <!-- 图片 -->
 <!-- <pic cropperOptions="{{img}}"></pic>
 <button bindtap='selectTap' data-mode='rectangle'>select image (mode=rectangle)</button>
