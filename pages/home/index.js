@@ -7,7 +7,7 @@ Page({
   data: {
     homeArr: [
       {
-        name: "1",
+        name: "按钮",
         path: ""
       },
       {

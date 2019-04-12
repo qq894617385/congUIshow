@@ -38,7 +38,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 1,
+			"current": 2,
 			"list": [
 				{
 					"id": 0,
@@ -50,6 +50,13 @@
 					"id": -1,
 					"name": "展示主页",
 					"pathName": "pages/home/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "地图展示",
+					"pathName": "pages/map/index",
 					"scene": null
 				}
 			]

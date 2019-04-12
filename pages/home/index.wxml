@@ -5,6 +5,12 @@
                 <view class="cricle_box">
                     <i class="iconfont icon-hexagon six_angle"></i>
                 </view>
+                <view class="cricle_contant">
+                    <i class="iconfont icon-hexagon six_angle"></i>
+                </view>
+                <view class="path-contant">
+                    {{item.name}}
+                </view>
             </view>
         </view>
     </view>
